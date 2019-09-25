@@ -10,6 +10,7 @@ import static org.springframework.http.HttpMethod.GET;
 public class AlbumsClient {
 
     private String albumsUrl;
+
     private RestOperations restOperations;
 
     public AlbumsClient(String albumsUrl, RestOperations restOperations) {
