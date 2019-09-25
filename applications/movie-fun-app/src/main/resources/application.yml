@@ -4,7 +4,10 @@ spring:
     suffix: .jsp
 
 logging.level:
-  root: WARN
+  root: INFO
+  org:
+    springframework:
+      security: DEBUG
   org.superbiz.moviefun: DEBUG
 
 s3:

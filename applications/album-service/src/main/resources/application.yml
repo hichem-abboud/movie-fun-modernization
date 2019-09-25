@@ -14,7 +14,7 @@ spring:
       initial-size: 4
 
 logging.level:
-  root: WARN
+  root: INFO
   org.superbiz.moviefun: DEBUG
 
 s3:
