@@ -19,3 +19,9 @@ albums:
   url: //album-service/albums
 movies:
   url: //movie-service/movies
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
